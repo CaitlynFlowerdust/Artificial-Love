@@ -1,34 +1,448 @@
-Sun Aug 27 22:34:39 2023
+Mon Aug 28 01:19:15 2023
 Windows-10-10.0.22621
 Ren'Py 8.1.1.23060707
  
 
-Bootstrap to the start of init.init. took 0.05s
+Bootstrap to the start of init.init. took 0.04s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.03s
-Loading script. took 0.11s
+Loading script. took 0.12s
 Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Running init code. took 0.04s
-Loading analysis data. took 0.02s
+Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
 Index archives took 0.00s
 Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.02s
+Initial gc. took 0.03s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.06s
 Build styles took 0.00s
-Load screen analysis took 0.03s
+Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.08s
+Prepare screens took 0.13s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.57s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scripts/main/chapter1/chapter1_day1.rpy", line 5, in script
+    centered "{color="#000"}Welcome to IntraReality!{/color}"
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\character.py", line 674, in display_say
+    what_text.update()
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\text\text.py", line 1865, in update
+    tokens = self.tokenize(text)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\text\text.py", line 2345, in tokenize
+    tokens.extend(textsupport.tokenize(i))
+  File "textsupport.pyx", line 169, in renpy.text.textsupport.tokenize
+Exception: Open text tag at end of string '{color='.
+
+While running game code:
+  File "game/scripts/main/chapter1/chapter1_day1.rpy", line 5, in script
+    centered "{color="#000"}Welcome to IntraReality!{/color}"
+Exception: Open text tag at end of string '{color='.
+Resetting cache.
+Bootstrap to the start of init.init. took 125.86s
+Early init. took 0.00s
+Loader init. took 0.08s
+Loading error handling. took 0.04s
+Loading script. took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 179.96s
+Early init. took 0.00s
+Loader init. took 0.04s
+Loading error handling. took 0.04s
+Loading script. took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.07s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 231.97s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.22s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.05s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.01s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Bootstrap to the start of init.init. took 420.67s
+Early init. took 0.00s
+Loader init. took 0.17s
+Loading error handling. took 0.06s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scripts/main/chapter1/chapter1_day1.rpy", line 24, in script
+    "Placeholder"
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\OCS003\Documents\renpy-8.1.1-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'sfx_alarm_beep'.
+
+While running game code:
+  File "game/scripts/main/chapter1/chapter1_day1.rpy", line 24, in script
+    "Placeholder"
+OSError: Couldn't find file 'sfx_alarm_beep'.
+Resetting cache.
+Bootstrap to the start of init.init. took 441.42s
+Early init. took 0.00s
+Loader init. took 0.07s
+Loading error handling. took 0.05s
+Loading script. took 0.33s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 449.94s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.03s
+Loading script. took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 467.17s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.04s
+Loading script. took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\OCS003\\AppData\\Roaming/RenPy/backups\\Artificial Love':
+Dump and make backups. took 0.07s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 31.0.101.4146'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
