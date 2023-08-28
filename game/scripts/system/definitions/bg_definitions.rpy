@@ -50,5 +50,8 @@ image bg train_evening = "images/backgrounds/Train_Evening.png"
 image bg train_night = "images/backgrounds/Train_Night.png"
 image bg train_night_rain = "images/backgrounds/Train_Night_Rain.png"
 image bg train_tunnel = "images/backgrounds/Train_Tunnel.png"
+image bg office_day:
+    "images/backgrounds/office_day.jpg"
+    zoom 2.5
 
 image white = Solid("#fff")

@@ -37,3 +37,102 @@ label chapter1_start:
     array "You'll do great!"
     mc "Sigh..."
     "I sat up, stretching."
+    mc "Thanks, Array."
+    "With that, I forced myself out of bed and headed to the bathroom."
+    scene bg bathroom
+    with fade
+    play sound sfx_fillbathtub noloop
+    "I ran the bath and began getting undressed."
+    "Staring at the person in the mirror..."
+    "I haven't felt like {i}myself{/i} for days now."
+    "Sometimes I wonder..."
+    "What would it be like to have a new life..."
+    stop sound fadeout 1.0
+    "With the bath filled, I step in."
+    "Allowing myself to relax a little."
+    "The warm water laps around me, and it does feel nice."
+    play sound sfx_notif1
+    "I hear my phone beep."
+    "What now...?"
+    mc "Array, read the message!"
+    array "You have: 1 new message."
+    mc "Yea, yea, I said read it!"
+    "Honestly..."
+    array "New message. From: Unknown."
+    "Oh God..."
+    "A sense of dread stirs within me."
+    array "The message reads as follows:"
+    unk """
+    Oi, [mc_name]. I want ya to listen very carefully to what I'm about to say.
+    Do NOT go to IntraReality.
+    I may sound crazy but, hear me out, {i}please{/i}.
+    There's been an incident. A bad one.
+    It's not safe t-{nw}
+    """
+    mc "Array, stop."
+    array "Would you like me to discard the message?"
+    mc "Yes please."
+    array "Message discarded."
+    "I groan, laying back down in the bath."
+    "What a nuisance..."
+    "Everyone's always like, \"Oh, don't go to IntraReality! Oh, it's dangerous!\""
+    "Honestly, what bullshit..."
+    array "I'm sorry but, it's almost time to leave, [mc_name]."
+    "Oh, shit..."
+    mc "Alright, alright."
+    "I reluctantly exit the bath."
+    play sound sfx_drainbathtub
+    "Getting dressed into my new uniform, and tidying my hair, I look back to the mirror."
+    "I look professional."
+    mc "Alright. Let's do this."
+    stop sound fadeout 1.5
+    scene bg bedroom_day
+    with fade
+    mc "Array?"
+    array "Yes?"
+    mc "I'm leaving now. Make sure to lock the apartment when I go. And tidy up if you can."
+    array "Yes, will do."
+    mc "Goodbye."
+    array "Have a nice day!"
+    scene black
+    with fade
+    play sound sfx_newday
+    centered "{b}{u}Day 1 - Monday 1st May"
+    scene bg office_day
+    with fade
+    play music music_mc_office loop
+    "I push open the office door."
+    mc "Phew, made it..."
+    "I take a look around. The room is clean and neatly decorated."
+    "My eyes land on a solitary figure standing by the window."
+    show AM1RA still_eyeclose_neutral at left
+    with dissolve
+    "I approach."
+    mc "Uhm, excuse me?"
+    show AM1RA still_neutral
+    with dissolve
+    "She looks at me."
+    unk "Yes?"
+    "Her stare is cold. It makes me nervous."
+    mc "U-Um-"
+    unk "You're the new employee, correct?"
+    mc "Y-Yes..."
+    unk "Good."
+    unk "Welcome to IntraReality."
+    mc "Thank you..."
+    "I don't know why she makes me feel so jittery."
+    "I just couldn't help it."
+    "She doesn't look... alive..."
+    show AM1RA at center with move
+    unk "Allow me to introduce myself."
+    am "My name is AM1RA."
+    mc "AM1RA?"
+    am "Yes."
+    am "Arbitrary Model 1 Response Android."
+    mc "O-Oh..."
+    "So she's an android..."
+    "That explains the lack of emotion."
+    "And why I felt so damn powerless."
+    mc "So, uhm, they have androids working inside the company too?"
+    am "Correct."
+    mc "Wow..."
