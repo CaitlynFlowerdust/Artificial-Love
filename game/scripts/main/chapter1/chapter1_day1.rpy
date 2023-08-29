@@ -136,3 +136,28 @@ label chapter1_start:
     mc "So, uhm, they have androids working inside the company too?"
     am "Correct."
     mc "Wow..."
+    show AM1RA still_eyeclose_neutral
+    am "You weren't told anything, were you."
+    mc "U-Uhm, no..."
+    am "What a nuisance..."
+    mc "I-I-I'm so sorry!!!"
+    show AM1RA still_neutral
+    am "I didn't mean you."
+    am "We're the ones at fault for not properly informing you."
+    mc "O-Oh..."
+    "This is... so awkward..."
+    "What do I do...?"
+    stop music
+    scene black
+    with vpunch
+    "Suddenly, everything went dark."
+    mc "A-AM1RA?!"
+    am "I'm here."
+    "I hear shuffling."
+    am "It appears there has been a power outage."
+    mc "Y-Yeah, I can see that..."
+    "As if things couldn't get any worse..."
+    # need an electric flash and sfx here
+    "A sudden flash of light blinded me for a moment."
+    "The smell of smoke filled the air."
+    mc "{i}Oh shit...{/i}"
